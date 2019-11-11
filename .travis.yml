@@ -3,7 +3,7 @@ jdk:
   - openjdk11
 env:
   global:
-    - CODECOV_TOKEN="ff425e45-36d8-4f8c-ad27-30a48fb8e2f9"
+    - CODECOV_TOKEN="9293e1dc-ca26-4194-86ba-d21f60d2abee"
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
