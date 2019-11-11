@@ -1,0 +1,18 @@
+server:
+  port: ${PORT:8100}
+
+spring:
+  application:
+    name: auth-server
+
+oauth:
+  client: client
+  secret: secret
+  key:
+    store: keystore.jks
+    alias: oauth2
+    password: password
+
+logging:
+  level:
+    org.springframework.security: TRACE
