@@ -15,4 +15,4 @@ oauth:
 
 logging:
   level:
-    org.springframework.security: TRACE
+    org.springframework.security: INFO
